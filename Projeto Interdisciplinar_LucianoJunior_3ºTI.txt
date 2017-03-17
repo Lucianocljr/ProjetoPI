@@ -1,0 +1,10 @@
+Projeto Interdisciplinar
+
+1-Qual o problema que vocês irão resolver?
+R. O controle de toda tramitação de uma biblioteca pública.
+2-Porque ele é importante?
+R. Para que venha auxiliar um determinado ambiente, neste caso uma biblioteca. 
+3-Quem são as pessoas que sofrem com esse problema (faixa etária, gênero, classe social)?
+R. Os usuários, são todos aqueles que frequentam uma biblioteca.
+4-Quem são os concorrentes?
+R. http://www.biblioteca.uneb.br/pergamum/biblioteca/index.php
