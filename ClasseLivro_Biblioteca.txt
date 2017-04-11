@@ -1,0 +1,59 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ClassesBasicas;
+
+/**
+ *
+ * @author Luciano
+ */
+public class Livro {
+    
+    private String nomeLivro;
+    private String editoraLivro;
+    private String generoLivro;
+    private String anoPublicacao;
+
+    public String getNomeLivro() {
+        return nomeLivro;
+    }
+
+    public void setNomeLivro(String nomeLivro) {
+        this.nomeLivro = nomeLivro;
+    }
+
+    public String getEditoraLivro() {
+        return editoraLivro;
+    }
+
+    public void setEditoraLivro(String editoraLivro) {
+        this.editoraLivro = editoraLivro;
+    }
+
+    public String getGeneroLivro() {
+        return generoLivro;
+    }
+
+    public void setGeneroLivro(String generoLivro) {
+        this.generoLivro = generoLivro;
+    }
+
+    public String getAnoPublicacao() {
+        return anoPublicacao;
+    }
+
+    public void setAnoPublicacao(String anoPublicacao) {
+        this.anoPublicacao = anoPublicacao;
+    }
+
+    public Livro(String nomeLivro, String editoraLivro, String generoLivro, String anoPublicacao) {
+        this.nomeLivro = nomeLivro;
+        this.editoraLivro = editoraLivro;
+        this.generoLivro = generoLivro;
+        this.anoPublicacao = anoPublicacao;
+    }
+    
+    
+}

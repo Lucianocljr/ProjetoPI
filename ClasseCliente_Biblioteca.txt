@@ -1,0 +1,50 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ClassesBasicas;
+
+/**
+ *
+ * @author Luciano
+ */
+public class Cliente {
+    
+    private String nomeCliente;
+    private String foneCliente;
+    private EnderecoCliente endCliente;
+
+    public String getNomeCliente() {
+        return nomeCliente;
+    }
+
+    public void setNomeCliente(String nomeCliente) {
+        this.nomeCliente = nomeCliente;
+    }
+
+    public String getFoneCliente() {
+        return foneCliente;
+    }
+
+    public void setFoneCliente(String foneCliente) {
+        this.foneCliente = foneCliente;
+    }
+
+    public EnderecoCliente getEndCliente() {
+        return endCliente;
+    }
+
+    public void setEndCliente(EnderecoCliente endCliente) {
+        this.endCliente = endCliente;
+    }
+
+    public Cliente(String nomeCliente, String foneCliente, EnderecoCliente endCliente) {
+        this.nomeCliente = nomeCliente;
+        this.foneCliente = foneCliente;
+        this.endCliente = endCliente;
+    }
+    
+    
+    
+}
